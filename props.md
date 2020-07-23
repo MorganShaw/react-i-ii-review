@@ -3,7 +3,7 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
-    Data - about an object... That can be passed from parent to child component. 
+    Data - about an object... That can be passed from parent to child component.  Can pass down function, string, array, object. The prop itself is an object, as a key value pair (remember how child element is shown in render method of parent component - List key= and value=. But
 
 2.  How do you pass props from a parent to a child?
 
@@ -58,7 +58,7 @@ class Queue extends Component {
   }
 }
 ```
-
+//On student, you'd see askQuestion = {this.props.????}
 ### Apply
 
 Try these on your own, but work together if you start to get stuck.
