@@ -78,3 +78,4 @@ Discuss these questions as a group
 
 8.  In the Queue component above, why are we holding state in the Queue component instead of Mentor or Student?
 ???
+Because state needs to be available in mentor and student (the children). If it was on one or the other, you can't pass data back up to parent and then down to other child. Data passed down to student (child), and event bubbling back up to Queue (parent).
