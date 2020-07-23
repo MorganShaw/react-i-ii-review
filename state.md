@@ -3,10 +3,13 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
+    Is an immutable object. 
 
 2.  Where do you set initial state?
+    You initialize state inside a constructor function when you start building the class component. 
 
 3.  What method do you use to update state?
+    Because it's immutable, you have to use this.setState to update state.
 
 ### Understand
 
@@ -46,6 +49,21 @@ class LeadMentor extends Component {
 Try these on your own, but work together if you start to get stuck.
 
 5.  Create a `Student` component that keeps track of the number of questions the student has asked, with a button that adds 1 to the total when it's clicked
+
+class Student extends Component {
+  constructor(props) {
+    super();
+    
+    this.state = {
+      questionsAsked: 0
+    }
+    
+  }  
+  
+  render() {
+    
+  }
+
 
 6.  Now add a text input where the student can type in their questions with a button to add them to a list of questions that is displayed below the number of questions asked.
 
