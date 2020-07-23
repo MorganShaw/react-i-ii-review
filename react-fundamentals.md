@@ -3,24 +3,28 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
-
+Javascript library
 2.  What is create-react-app?
+Packages for new app....
 
 3.  What is Component Based Architecture?
-
+Reusable, easier to troubleshoots.
 4.  What is JSX?
-
+Interacts with virtual DOM
 5.  What is the virtual DOM?
 
 6.  What is unidirectional (one-way) data flow?
+From parent to child. 
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+Creates new app template. my-app is name.
 
 8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
+
 
 9.  Explain what this code does:
 
