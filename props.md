@@ -3,14 +3,20 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+    Data - about an object... That can be passed from parent to child component. 
 
 2.  How do you pass props from a parent to a child?
 
+
 3.  How do you access props from a class-based child component?
+  Pass props parameter in constructor and super functions. 
 
 4.  How do you access props from a functional component?
+  Pass props as a parameter in the function.
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+this.functionName = this.functionName.bind(this) inside the constructor function. So it has the explicit context of this.
+
 
 ### Understand
 
@@ -58,9 +64,17 @@ class Queue extends Component {
 Try these on your own, but work together if you start to get stuck.
 
 7.  Using the `Queue` component above, create a `Student` component that can add a question as a string and a `Mentor` component that can remove a question from the array.
+Student would be class, and mentor would be functional.
+
+can be functional component. Ask question is written in this component (parent component queue).
+
+class Student extends Component {
+  constructor 
+  
 
 ### Analyze, Evaluate, Create
 
 Discuss these questions as a group
 
 8.  In the Queue component above, why are we holding state in the Queue component instead of Mentor or Student?
+???
